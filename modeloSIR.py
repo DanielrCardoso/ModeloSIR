@@ -1,7 +1,9 @@
 from scipy.integrate import odeint
+from math import *
 import numpy
 import matplotlib.pyplot as plt
 import os
+from threading import Event
 
 def Modelo_SIR(y,t,alpha,beta):
     S,I,R = y
