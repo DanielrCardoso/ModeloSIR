@@ -9,9 +9,15 @@ O programa gera como base nas equações do modelo SIR um gráfico contendo trê
 
 ## Como instalar 
 
-É necessário ter o compilador do python pip ou semelhante para rodar o projeto. É possível realizar a instalação do compilador python a partir da página oficial da linguagem(https://www.python.org/downloads/). 
+É necessário ter o compilador do python pip ou semelhante para rodar o projeto. É possível realizar a instalação do compilador python a partir da página oficial da linguagem(https://www.python.org/downloads/).
 
- 
+No terminal, instale as bibliotecas necessarias:
+``` 
+pip install numpy
+```
+``` 
+pip install matplotlib
+``` 
 No terminal, clone o projeto: 
 
 ``` 
@@ -36,5 +42,5 @@ Python modeloSIR.py
     - Tamanho da população 
     - Tempo máximo para visualizar a simulação. 
     - Tamanho da população inicial infectada. 
-    
+
 3. Após os passos anteriores um arquivo .png será criado no diretório do programa com o seguinte nome: SIR_simulacao_ValorALFA_ValorBeta_TamanhoDaPopulacao 
